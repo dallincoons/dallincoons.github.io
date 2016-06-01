@@ -1,4 +1,9 @@
-Do you use link functions in Angular directives? Me too. But sometimes that's not always the best tool for the job. 
+---
+title: Angular Pre and Post links
+
+---
+
+Do you use link functions in Angular directives? Me too. But sometimes that's not always the best tool for the job.
 
 For a fantastic explanation of the difference between link, compile, pre, and post, I recommend [this](http://www.jvandemo.com/the-nitty-gritty-of-compile-and-link-functions-inside-angularjs-directives/) (yes this is a cop-out but this author does a better job than I ever could): 
 
