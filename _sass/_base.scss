@@ -35,6 +35,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+
 }
 
 
@@ -83,6 +84,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    color: $grey-color;
 }
 
 
@@ -156,12 +158,13 @@ pre {
  * Wrapper
  */
 .wrapper {
+    background: #ffffff;
+    //background: url("/_site/css/img/packman_background_test.jpg");
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding: 2% 5%;
     @extend %clearfix;
 
     @include media-query($on-laptop) {

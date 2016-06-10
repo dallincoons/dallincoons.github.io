@@ -4,18 +4,25 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Articles</h1>
+  <div class="line-divide"></div>
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div class="post-info">
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li>
+        <div class="line-divide"></div>
+
+        <p>{{post.content | strip_html | truncatewords: 25}}</p>
+
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 
 </div>
