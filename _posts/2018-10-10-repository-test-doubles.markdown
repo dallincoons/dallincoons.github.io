@@ -2,9 +2,9 @@
 title: My favorite reason to use the repository pattern
 ---
 
-Not everyone is in love with the [Repository Pattern](https://martinfowler.com/eaaCatalog/repository.html), which I understandable, because it has a way of complicating things and adding a lot of seemingly unneccessary code, especially in small, [Active Record](https://www.martinfowler.com/eaaCatalog/activeRecord.html) style apps.  And you know what? I actually agree in a lot of cases. It can be overkill depending on what you're working on. You'll rarely if ever find me purporting a "one size fits all" solution.
+Not everyone is in love with the [Repository Pattern](https://martinfowler.com/eaaCatalog/repository.html), which is understandable, because it has a way of complicating things and adding a lot of seemingly unneccessary code, especially in small, [Active Record](https://www.martinfowler.com/eaaCatalog/activeRecord.html) style apps.  And you know what? I actually agree in a lot of cases. It can be overkill depending on what you're working on. You'll rarely if ever find me purporting a "one size fits all" solution.
 
-That being said, let me tell you my favorite reason to use the Repository Pattern.
+That being said, let me tell you my favorite reason to use the Repository Pattern: it can dramatically speed up your tests.
 
 A repository can be seen as simply a collection of data records. Where the data is stored isn't important, that's merely an implimentation detai, which is the whole point of repositories. That means that our app doesn't know or care how the data is being store, it just knows that it's being stored somewhere. You could have a simple in-memory repository that has the same methods as a repository that is backed by a database and your code treats it all the same.
 
