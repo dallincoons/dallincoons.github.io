@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How I learn
+title: Favorite resources
 permalink: /education/
 ---
 
