@@ -1,33 +1,24 @@
 ---
 layout: page
-title: Favorite resources
+title: Favorite Resources
 permalink: /education/
 ---
 
-I learn by reading: 
+Books that have had the greatest impact on me
 
-* Working Effectively with Legacy Code
-* PHP Objects, Patterns, and Practice
-* PHP Object-Oriented Solutions
-* Pro Angular Js
-* AngularJS Test-driven Development
-* Maintanable Javascript
-* The Principles of Object-Oriented Javascript
-* The Database Hacker's Handbook: Defending Database Servers
-* How Linux Works: What Every Superuser Should Know
-* Regular Expression Cookbook
+* Clean Code: A Handbook of Agile Software Craftsmanship (Robert C. Martin Series)
+* The Clean Coder: A Code of Conduct for Professional Programmers (Robert C. Martin Series)
+* Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)
+* Working Effectively with Legacy Code - Michael Feathers
+* Design Patterns: Elements of Reusable Object-Oriented Software
+* Patterns of Enterprise Application Architecture
+* Refactoring - Martin Fowler
 * The Pragmatic Programmer: From Journeyman to Master
-* Optimal Cupid: Mastering the Hidden Logic of OkCupid
-* Http: The Definitive Guide
-* PHP Solutions: Dynamic Web Design Made Easy
-* CSS Secrets: Better Solutions to Everyday Web Design
-* Beginning Database Design: From Novice to Professional
+* Domain-Driven Design: Tackling Complexity in the Heart of Software
+* The RSpec Booik
+* The Agile Samurai
 
-I learn by watching:
-
-* Laracasts.com
-* Lynda.com
-
-I learn by doing:
-
-* [github.com/dallincoons](https://github.com/dallincoons)
+I'm a big fan of the following video focused resources:
+* Laracasts
+* Destroy All Software
+* Clean Code (cleancoders.com)
