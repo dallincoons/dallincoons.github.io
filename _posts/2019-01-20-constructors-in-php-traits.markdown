@@ -1,5 +1,5 @@
 ---
-Constructors in Traits
+title: Constructors in Traits
 ---
 
 Traits are a handy way for sharing functionality in multiple classes, and since php doesn't support multiple inheritance, this is the next best thing. But of course, like most tools, there are a myriad of ways in which traits can be abused. 
